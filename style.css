@@ -531,6 +531,9 @@ body {
   background: rgba(255, 255, 255, 0.15);
   margin-top: 240px;
 }
+.footer {
+  height: 351px;
+}
 .footer-flex-container {
   display: flex;
   margin-top: 70px;
@@ -545,7 +548,7 @@ body {
   line-height: normal;
   margin: 0;
 }
-.g {
+.footer-logo {
   display: flex;
   gap: 12px;
 }
