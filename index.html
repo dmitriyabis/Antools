@@ -14,37 +14,39 @@
   <body>
     <header class="header">
       <div class="container">
-        <a href="*" class="header-logo-link"
-          ><img
-            class="group-header-png"
-            src="./src/images/group-header.png"
-            alt="png"
-          /><span class="header-logo-link-text">antools.</span></a
-        >
+        <div class="header-flex-wrap">
+          <a href="*" class="header-logo-link"
+            ><img
+              class="group-header-png"
+              src="./src/images/group-header.png"
+              alt="png"
+            /><span class="header-logo-link-text">antools.</span></a
+          >
 
-        <nav class="header-navigation">
-          <ul class="header-link-row">
-            <li><a href="*" class="small-text">Home</a></li>
-            <li>
-              <div class="header-svg-container">
-                <a href="*" class="small-text">Categories</a>
-                <div class="header-svg">
-                  <img src="./src/images/chevron-down.svg" alt="svg" />
+          <nav class="header-navigation">
+            <ul class="header-link-row">
+              <li><a href="*" class="small-text">Home</a></li>
+              <li>
+                <div class="header-svg-container">
+                  <a href="*" class="small-text">Categories</a>
+                  <div class="header-svg">
+                    <img src="./src/images/chevron-down.svg" alt="svg" />
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li><a href="*" class="small-text">My Collections</a></li>
-            <li><a href="*" class="small-text">Blog</a></li>
+              </li>
+              <li><a href="*" class="small-text">My Collections</a></li>
+              <li><a href="*" class="small-text">Blog</a></li>
+            </ul>
+          </nav>
+          <ul class="button-row">
+            <li><button class="header-button-login">Login</button></li>
+            <li><button class="header-button-sign">Sign Up</button></li>
           </ul>
-        </nav>
-        <ul class="button-row">
-          <li><button class="header-button-login">Login</button></li>
-          <li><button class="header-button-sign">Sign Up</button></li>
-        </ul>
+        </div>
       </div>
     </header>
     <main>
-      <section>
+      <section class="section-awesome-tools">
         <div class="container-awesome-tools">
           <h1 class="awesome-tools-title">
             Awesome tools for Designer & Developer
@@ -252,130 +254,140 @@
         </div>
       </section>
       <section class="newcomer-tools">
-        <div class="newcomer-flex-container">
-          <div>
-            <h4 class="newcomer-tools-title">Newcomer Tools</h4>
-            <p class="newcomer-text">
-              Wow! see the latest update of the most recommended tools from
-              reliable designers and developers
-            </p>
-            <button class="newcomer-button-explore">Explore more</button>
-          </div>
-          <div class="newcomer-programs-container">
-            <ul class="newcomer-programs-list">
-              <li>
-                <div class="newcomer-programs-items">
-                  <div class="newcomer-title-pay">
+        <div class="newcomer-container">
+          <div class="newcomer-flexbox">
+            <div>
+              <h4 class="newcomer-tools-title">Newcomer Tools</h4>
+              <p class="newcomer-text">
+                Wow! see the latest update of the most recommended tools from
+                reliable designers and developers
+              </p>
+              <button class="newcomer-button-explore">Explore more</button>
+            </div>
+            <div class="newcomer-programs-container">
+              <ul class="newcomer-programs-list">
+                <li>
+                  <div class="newcomer-programs-items">
+                    <div class="newcomer-title-pay">
+                      <img
+                        class="newcomer-title-pay-png"
+                        src="./src/images/zeplin.png"
+                        alt="png"
+                      />
+                      <div>
+                        <p class="newcomer-programs-title">Zeplin</p>
+                        <p class="newcomer-programs-pay">Free & Paid</p>
+                      </div>
+                    </div>
+                    <p class="newcomer-programs-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                     <img
-                      class="newcomer-title-pay-png"
-                      src="./src/images/zeplin.png"
+                      class="newcomer-programs-like"
+                      src="./src/images/flat-color-icons_like.png"
                       alt="png"
                     />
-                    <div>
-                      <p class="newcomer-programs-title">Zeplin</p>
-                      <p class="newcomer-programs-pay">Free & Paid</p>
-                    </div>
-                  </div>
-                  <p class="newcomer-programs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <img
-                    class="newcomer-programs-like"
-                    src="./src/images/flat-color-icons_like.png"
-                    alt="png"
-                  />
-                  <img
-                    src="./src/images/eva_folder-add-outline.png"
-                    alt="png"
-                  />
-                  <button class="newcomer-programs-button-visit">Visit</button>
-                </div>
-              </li>
-              <li>
-                <div class="newcomer-programs-items">
-                  <div class="newcomer-title-pay">
                     <img
-                      class="newcomer-title-pay-png"
-                      src="./src/images/jb_phpstorm.png"
+                      src="./src/images/eva_folder-add-outline.png"
                       alt="png"
                     />
-                    <div>
-                      <p class="newcomer-programs-title">Zeplin</p>
-                      <p class="newcomer-programs-pay">Free & Paid</p>
-                    </div>
+                    <button class="newcomer-programs-button-visit">
+                      Visit
+                    </button>
                   </div>
-                  <p class="newcomer-programs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <img
-                    class="newcomer-programs-like"
-                    src="./src/images/flat-color-icons_like.png"
-                    alt="png"
-                  />
-                  <img
-                    src="./src/images/eva_folder-add-outline.png"
-                    alt="png"
-                  />
-                  <button class="newcomer-programs-button-visit">Visit</button>
-                </div>
-              </li>
-              <li>
-                <div class="newcomer-programs-items">
-                  <div class="newcomer-title-pay">
+                </li>
+                <li>
+                  <div class="newcomer-programs-items">
+                    <div class="newcomer-title-pay">
+                      <img
+                        class="newcomer-title-pay-png"
+                        src="./src/images/jb_phpstorm.png"
+                        alt="png"
+                      />
+                      <div>
+                        <p class="newcomer-programs-title">Zeplin</p>
+                        <p class="newcomer-programs-pay">Free & Paid</p>
+                      </div>
+                    </div>
+                    <p class="newcomer-programs-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
                     <img
-                      class="newcomer-title-pay-png"
-                      src="./src/images/jb_toolbox_app.png"
+                      class="newcomer-programs-like"
+                      src="./src/images/flat-color-icons_like.png"
                       alt="png"
                     />
-                    <div>
-                      <p class="newcomer-programs-title">Zeplin</p>
-                      <p class="newcomer-programs-pay">Free & Paid</p>
-                    </div>
-                  </div>
-                  <p class="newcomer-programs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <img
-                    class="newcomer-programs-like"
-                    src="./src/images/flat-color-icons_like.png"
-                    alt="png"
-                  />
-                  <img
-                    src="./src/images/eva_folder-add-outline.png"
-                    alt="png"
-                  />
-                  <button class="newcomer-programs-button-visit">Visit</button>
-                </div>
-              </li>
-              <li>
-                <div class="newcomer-programs-items">
-                  <div class="newcomer-title-pay">
                     <img
-                      class="newcomer-title-pay-png"
-                      src="./src/images/procreate.png"
+                      src="./src/images/eva_folder-add-outline.png"
                       alt="png"
                     />
-                    <div>
-                      <p class="newcomer-programs-title">Zeplin</p>
-                      <p class="newcomer-programs-pay">Free & Paid</p>
-                    </div>
+                    <button class="newcomer-programs-button-visit">
+                      Visit
+                    </button>
                   </div>
-                  <p class="newcomer-programs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                  <img
-                    class="newcomer-programs-like"
-                    src="./src/images/flat-color-icons_like.png"
-                    alt="png"
-                  />
-                  <img
-                    src="./src/images/eva_folder-add-outline.png"
-                    alt="png"
-                  />
-                  <button class="newcomer-programs-button-visit">Visit</button>
-                </div>
-              </li>
-            </ul>
+                </li>
+                <li>
+                  <div class="newcomer-programs-items">
+                    <div class="newcomer-title-pay">
+                      <img
+                        class="newcomer-title-pay-png"
+                        src="./src/images/jb_toolbox_app.png"
+                        alt="png"
+                      />
+                      <div>
+                        <p class="newcomer-programs-title">Zeplin</p>
+                        <p class="newcomer-programs-pay">Free & Paid</p>
+                      </div>
+                    </div>
+                    <p class="newcomer-programs-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <img
+                      class="newcomer-programs-like"
+                      src="./src/images/flat-color-icons_like.png"
+                      alt="png"
+                    />
+                    <img
+                      src="./src/images/eva_folder-add-outline.png"
+                      alt="png"
+                    />
+                    <button class="newcomer-programs-button-visit">
+                      Visit
+                    </button>
+                  </div>
+                </li>
+                <li>
+                  <div class="newcomer-programs-items">
+                    <div class="newcomer-title-pay">
+                      <img
+                        class="newcomer-title-pay-png"
+                        src="./src/images/procreate.png"
+                        alt="png"
+                      />
+                      <div>
+                        <p class="newcomer-programs-title">Zeplin</p>
+                        <p class="newcomer-programs-pay">Free & Paid</p>
+                      </div>
+                    </div>
+                    <p class="newcomer-programs-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <img
+                      class="newcomer-programs-like"
+                      src="./src/images/flat-color-icons_like.png"
+                      alt="png"
+                    />
+                    <img
+                      src="./src/images/eva_folder-add-outline.png"
+                      alt="png"
+                    />
+                    <button class="newcomer-programs-button-visit">
+                      Visit
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -439,52 +451,54 @@
       <div class="before-footer-line"></div>
     </main>
     <footer class="footer">
-      <div class="footer-flex-container">
-        <div class="footer-flex-element">
-          <div class="footer-logo">
-            <img src="./src/images/group-footer.png" alt="png" />
-            <p class="foter-text-logo">antools.</p>
+      <div class="footer-container">
+        <div class="footer-flexbox">
+          <div class="footer-flex-element">
+            <div class="footer-logo">
+              <img src="./src/images/group-footer.png" alt="png" />
+              <p class="foter-text-logo">antools.</p>
+            </div>
+            <p class="footer-copyright">Copyright 2021. Antools</p>
+            <p class="copyright-text">
+              Antool is a web collection of information on paid or free Design
+              and Development toolsv
+            </p>
           </div>
-          <p class="footer-copyright">Copyright 2021. Antools</p>
-          <p class="copyright-text">
-            Antool is a web collection of information on paid or free Design and
-            Development toolsv
-          </p>
-        </div>
-        <div class="footer-contact">
-          <p class="contact-title">Contact Us</p>
-          <address>
-            <ul class="contact-list">
-              <li>
-                <a class="contact-list-item" href="tel: +621987463"
-                  >+621987463</a
-                >
-              </li>
-              <li>
-                <a class="contact-list-item" href="">M Building, No.10 A</a>
-              </li>
-              <li>
-                <a class="contact-list-item" href="mailto:antools@awesome.com"
-                  >antools@awesome.com</a
-                >
-              </li>
+          <div class="footer-contact">
+            <p class="contact-title">Contact Us</p>
+            <address>
+              <ul class="contact-list">
+                <li>
+                  <a class="contact-list-item" href="tel: +621987463"
+                    >+621987463</a
+                  >
+                </li>
+                <li>
+                  <a class="contact-list-item" href="">M Building, No.10 A</a>
+                </li>
+                <li>
+                  <a class="contact-list-item" href="mailto:antools@awesome.com"
+                    >antools@awesome.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-categories">
+            <p class="categories-title">Categories</p>
+            <ul class="categories-list">
+              <li><a class="categories-list-item" href="*">Design</a></li>
+              <li><a class="categories-list-item" href="*">Development</a></li>
             </ul>
-          </address>
-        </div>
-        <div class="footer-categories">
-          <p class="categories-title">Categories</p>
-          <ul class="categories-list">
-            <li><a class="categories-list-item" href="*">Design</a></li>
-            <li><a class="categories-list-item" href="*">Development</a></li>
-          </ul>
-        </div>
-        <div class="footer-company">
-          <p class="company-title">Company Info</p>
-          <ul class="company-list">
-            <li><a class="company-list-item" href="*">About Us</a></li>
-            <li><a class="company-list-item" href="*">Our Partners</a></li>
-            <li><a class="company-list-item" href="*">Blog</a></li>
-          </ul>
+          </div>
+          <div class="footer-company">
+            <p class="company-title">Company Info</p>
+            <ul class="company-list">
+              <li><a class="company-list-item" href="*">About Us</a></li>
+              <li><a class="company-list-item" href="*">Our Partners</a></li>
+              <li><a class="company-list-item" href="*">Blog</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
