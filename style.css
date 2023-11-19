@@ -11,7 +11,7 @@ body {
   align-items: center;
 }
 .group-header-png {
-  height: 21px;
+  height: 26px;
   width: 20px;
   padding-top: 6px;
 }
@@ -30,15 +30,11 @@ body {
   line-height: normal;
   padding-left: 22px;
 }
-.header-navigation {
-  width: 431px;
-  height: 24px;
-}
 .header-link-row {
   display: flex;
   list-style-type: none;
-  justify-content: space-between;
-  margin-left: auto;
+  gap: 45px;
+  padding-top: 38px;
 }
 .small-text {
   color: rgba(255, 255, 255, 0.55);
@@ -94,10 +90,6 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 104px;
-}
-.container-awesome-tools {
-  max-width: 1224px;
-  margin: 0 auto;
 }
 .awesome-tools-title {
   width: 600px;
@@ -173,10 +165,6 @@ body {
   padding-left: 12px;
   margin-bottom: 12px;
 }
-.container-sectoin-hero {
-  max-width: 1224px;
-  margin: 0 auto;
-}
 .tools-link-h2 {
   width: 455px;
   margin: 0;
@@ -250,8 +238,8 @@ body {
   font-weight: 400;
   line-height: 30px;
   margin: 0;
-  padding-top: 30px;
-  padding-left: 33px;
+  margin-top: 30px;
+  margin-left: 33px;
 }
 .title-pay-container {
   display: flex;
@@ -274,9 +262,15 @@ body {
   line-height: normal;
   margin-left: 130px;
 }
-.picture-like {
+.tools-flexbox-img-button {
+  display: flex;
   padding-top: 37px;
   padding-left: 40px;
+}
+.img-row {
+  display: flex;
+}
+.picture-like {
   padding-right: 25px;
 }
 .grommet-icons {
@@ -319,11 +313,6 @@ body {
   line-height: normal;
   margin-left: 520px;
 }
-
-.brand-section {
-  max-width: 1224px;
-  margin: 0 auto;
-}
 .brand-container {
   flex-shrink: 0;
   border-radius: 25px;
@@ -350,10 +339,7 @@ body {
   list-style-type: none;
   padding-left: 82px;
   grid-gap: 107px;
-}
-.newcomer-container {
-  max-width: 1224px;
-  margin: 0 auto;
+  padding-bottom: 60px;
 }
 .newcomer-flexbox {
   display: flex;
@@ -394,8 +380,7 @@ body {
   border: 0;
 }
 .newcomer-programs-container {
-  margin-left: auto;
-  padding-left: 150px;
+  padding-left: 195px;
 }
 .newcomer-programs-list {
   display: flex;
@@ -452,6 +437,12 @@ body {
 .newcomer-title-pay-png {
   padding-left: 22px;
 }
+.newcomer-flexbox-img-button {
+  display: flex;
+}
+.newcomer-img-row {
+  display: flex;
+}
 .newcomer-programs-like {
   padding-left: 29px;
   padding-right: 25px;
@@ -492,22 +483,20 @@ body {
   font-weight: 600;
   line-height: normal;
 }
-.ronald-container {
-  max-width: 1224px;
-  margin: 0 auto;
+.ronald-flexbox {
   display: flex;
-  padding-top: 200px;
+  margin-top: 200px;
 }
 .chevron-grey {
   height: 48px;
   width: 48px;
-  padding-top: 222px;
+  margin-top: 222px;
 }
 .chevron-orange {
   height: 48px;
   width: 48px;
-  padding-left: 125px;
-  padding-top: 222px;
+  margin-left: 125px;
+  margin-top: 222px;
 }
 .ronald {
   width: 399px;
@@ -539,7 +528,6 @@ body {
   padding-left: 23px;
 }
 .ronald-richards-text {
-  margin: 0;
   color: rgba(255, 253, 253, 0.55);
   font-family: Poppins;
   font-size: 16px;
@@ -557,9 +545,8 @@ body {
   line-height: 30px;
   letter-spacing: 0.21px;
   width: 393px;
-  margin: 0;
-  padding-top: 128px;
-  padding-left: 100px;
+  margin-top: 128px;
+  margin-left: 100px;
   position: relative;
   z-index: 0;
 }
@@ -586,10 +573,6 @@ body {
   margin-top: 75px;
   margin-left: 50px;
 }
-.contributor-container {
-  max-width: 1224px;
-  margin: 0 auto;
-}
 .contributor-title {
   width: 553px;
   margin: 0;
@@ -600,12 +583,11 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
-  padding-top: 250px;
-  padding-left: 336px;
+  margin-top: 250px;
+  margin-left: 336px;
 }
 .contributor-text {
   width: 427px;
-  margin: 0;
   color: rgba(255, 255, 255, 0.55);
   text-align: center;
   font-family: Poppins;
@@ -613,8 +595,8 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  padding-top: 25px;
-  padding-left: 399px;
+  margin-top: 25px;
+  margin-left: 399px;
 }
 .contributor-form {
   margin-top: 100px;
@@ -664,14 +646,9 @@ body {
 .footer {
   height: 351px;
 }
-.footer-container {
-  max-width: 1224px;
-  margin: 0 auto;
-}
 .footer-flexbox {
   display: flex;
 }
-
 .footer-flex-element {
   margin-top: 70px;
 }

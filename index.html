@@ -4,12 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Antools</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Italiana&family=Montserrat:wght@300&family=Playfair+Display&family=Poppins:wght@300&family=Raleway:wght@400;700&family=Roboto:ital,wght@0,100;0,400;1,500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header class="header">
@@ -47,7 +54,7 @@
     </header>
     <main>
       <section class="section-awesome-tools">
-        <div class="container-awesome-tools">
+        <div class="container">
           <h1 class="awesome-tools-title">
             Awesome tools for Designer & Developer
           </h1>
@@ -73,7 +80,7 @@
         </div>
       </section>
       <section>
-        <div class="container-sectoin-hero">
+        <div class="container">
           <h2 class="tools-link-h2">Most Popular Tools</h2>
           <p class="tools-text">
             Tools for the best Designers and Developers most popularly used in
@@ -96,13 +103,17 @@
                 <p class="program-tools-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <img
-                  class="picture-like"
-                  src="./src/images/flat-color-icons_like.png"
-                  alt="png"
-                />
-                <img src="./src/images/eva_folder-add-outline.png" alt="png" />
+                <div class="tools-flexbox-img-button">
+                 <ul class="img-row">
+                  <li><img
+                    class="picture-like"
+                    src="./src/images/flat-color-icons_like.png"
+                    alt="png"
+                  /></li>
+                <li><img src="./src/images/eva_folder-add-outline.png" alt="png" class="eva"/></li>
+                </ul>
                 <button class="hero-button-visit">Visit</button>
+              </div>
               </div>
             </li>
             <li>
@@ -121,13 +132,17 @@
                 <p class="program-tools-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <img
-                  class="picture-like"
-                  src="./src/images/flat-color-icons_like.png"
-                  alt="png"
-                />
-                <img src="./src/images/eva_folder-add-outline.png" alt="png" />
-                <button class="hero-button-visit">Visit</button>
+                <div class="tools-flexbox-img-button">
+                  <ul class="img-row">
+                   <li><img
+                     class="picture-like"
+                     src="./src/images/flat-color-icons_like.png"
+                     alt="png"
+                   /></li>
+                 <li><img src="./src/images/eva_folder-add-outline.png" alt="png" class="eva"/></li>
+                 </ul>
+                 <button class="hero-button-visit">Visit</button>
+               </div>
               </div>
             </li>
             <li>
@@ -146,13 +161,17 @@
                 <p class="program-tools-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <img
-                  class="picture-like"
-                  src="./src/images/flat-color-icons_like.png"
-                  alt="png"
-                />
-                <img src="./src/images/eva_folder-add-outline.png" alt="png" />
-                <button class="hero-button-visit">Visit</button>
+                <div class="tools-flexbox-img-button">
+                  <ul class="img-row">
+                   <li><img
+                     class="picture-like"
+                     src="./src/images/flat-color-icons_like.png"
+                     alt="png"
+                   /></li>
+                 <li><img src="./src/images/eva_folder-add-outline.png" alt="png" class="eva"/></li>
+                 </ul>
+                 <button class="hero-button-visit">Visit</button>
+               </div>
               </div>
             </li>
             <li>
@@ -171,13 +190,17 @@
                 <p class="program-tools-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <img
-                  class="picture-like"
-                  src="./src/images/flat-color-icons_like.png"
-                  alt="png"
-                />
-                <img src="./src/images/eva_folder-add-outline.png" alt="png" />
-                <button class="hero-button-visit">Visit</button>
+                <div class="tools-flexbox-img-button">
+                  <ul class="img-row">
+                   <li><img
+                     class="picture-like"
+                     src="./src/images/flat-color-icons_like.png"
+                     alt="png"
+                   /></li>
+                 <li><img src="./src/images/eva_folder-add-outline.png" alt="png" class="eva"/></li>
+                 </ul>
+                 <button class="hero-button-visit">Visit</button>
+               </div>
               </div>
             </li>
             <li>
@@ -196,13 +219,17 @@
                 <p class="program-tools-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <img
-                  class="picture-like"
-                  src="./src/images/flat-color-icons_like.png"
-                  alt="png"
-                />
-                <img src="./src/images/eva_folder-add-outline.png" alt="png" />
-                <button class="hero-button-visit">Visit</button>
+                <div class="tools-flexbox-img-button">
+                  <ul class="img-row">
+                   <li><img
+                     class="picture-like"
+                     src="./src/images/flat-color-icons_like.png"
+                     alt="png"
+                   /></li>
+                 <li><img src="./src/images/eva_folder-add-outline.png" alt="png" class="eva"/></li>
+                 </ul>
+                 <button class="hero-button-visit">Visit</button>
+               </div>
               </div>
             </li>
             <li>
@@ -221,20 +248,25 @@
                 <p class="program-tools-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>
-                <img
-                  class="picture-like"
-                  src="./src/images/flat-color-icons_like.png"
-                  alt="png"
-                />
-                <img src="./src/images/eva_folder-add-outline.png" alt="png" />
-                <button class="hero-button-visit">Visit</button>
+                <div class="tools-flexbox-img-button">
+                  <ul class="img-row">
+                   <li><img
+                     class="picture-like"
+                     src="./src/images/flat-color-icons_like.png"
+                     alt="png"
+                   /></li>
+                 <li><img src="./src/images/eva_folder-add-outline.png" alt="png" class="eva"/></li>
+                 </ul>
+                 <button class="hero-button-visit">Visit</button>
+               </div>
               </div>
             </li>
           </ul>
           <button class="hero-button-load">Load more</button>
         </div>
       </section>
-      <section class="brand-section">
+      <section>
+        <div class="container">
         <div class="brand-container">
           <h3 class="brand-title">Trusted more than 150+ brand</h3>
           <ul class="brand-list">
@@ -252,9 +284,10 @@
             </li>
           </ul>
         </div>
+      </div>
       </section>
       <section class="newcomer-tools">
-        <div class="newcomer-container">
+        <div class="container">
           <div class="newcomer-flexbox">
             <div>
               <h4 class="newcomer-tools-title">Newcomer Tools</h4>
@@ -282,18 +315,17 @@
                     <p class="newcomer-programs-text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
-                    <img
-                      class="newcomer-programs-like"
-                      src="./src/images/flat-color-icons_like.png"
-                      alt="png"
-                    />
-                    <img
-                      src="./src/images/eva_folder-add-outline.png"
-                      alt="png"
-                    />
-                    <button class="newcomer-programs-button-visit">
-                      Visit
-                    </button>
+                    <div class="newcomer-flexbox-img-button">
+                      <ul class="newcomer-img-row">
+                       <li><img
+                         class="newcomer-programs-like"
+                         src="./src/images/flat-color-icons_like.png"
+                         alt="png"
+                       /></li>
+                     <li><img src="./src/images/eva_folder-add-outline.png" alt="png" class=""/></li>
+                     </ul>
+                     <button class="newcomer-programs-button-visit">Visit</button>
+                   </div>
                   </div>
                 </li>
                 <li>
@@ -312,18 +344,17 @@
                     <p class="newcomer-programs-text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
-                    <img
-                      class="newcomer-programs-like"
-                      src="./src/images/flat-color-icons_like.png"
-                      alt="png"
-                    />
-                    <img
-                      src="./src/images/eva_folder-add-outline.png"
-                      alt="png"
-                    />
-                    <button class="newcomer-programs-button-visit">
-                      Visit
-                    </button>
+                    <div class="newcomer-flexbox-img-button">
+                      <ul class="newcomer-img-row">
+                       <li><img
+                         class="newcomer-programs-like"
+                         src="./src/images/flat-color-icons_like.png"
+                         alt="png"
+                       /></li>
+                     <li><img src="./src/images/eva_folder-add-outline.png" alt="png" class=""/></li>
+                     </ul>
+                     <button class="newcomer-programs-button-visit">Visit</button>
+                   </div>
                   </div>
                 </li>
                 <li>
@@ -342,18 +373,17 @@
                     <p class="newcomer-programs-text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
-                    <img
-                      class="newcomer-programs-like"
-                      src="./src/images/flat-color-icons_like.png"
-                      alt="png"
-                    />
-                    <img
-                      src="./src/images/eva_folder-add-outline.png"
-                      alt="png"
-                    />
-                    <button class="newcomer-programs-button-visit">
-                      Visit
-                    </button>
+                    <div class="newcomer-flexbox-img-button">
+                      <ul class="newcomer-img-row">
+                       <li><img
+                         class="newcomer-programs-like"
+                         src="./src/images/flat-color-icons_like.png"
+                         alt="png"
+                       /></li>
+                     <li><img src="./src/images/eva_folder-add-outline.png" alt="png" class=""/></li>
+                     </ul>
+                     <button class="newcomer-programs-button-visit">Visit</button>
+                   </div>
                   </div>
                 </li>
                 <li>
@@ -372,18 +402,17 @@
                     <p class="newcomer-programs-text">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
-                    <img
-                      class="newcomer-programs-like"
-                      src="./src/images/flat-color-icons_like.png"
-                      alt="png"
-                    />
-                    <img
-                      src="./src/images/eva_folder-add-outline.png"
-                      alt="png"
-                    />
-                    <button class="newcomer-programs-button-visit">
-                      Visit
-                    </button>
+                    <div class="newcomer-flexbox-img-button">
+                      <ul class="newcomer-img-row">
+                       <li><img
+                         class="newcomer-programs-like"
+                         src="./src/images/flat-color-icons_like.png"
+                         alt="png"
+                       /></li>
+                     <li><img src="./src/images/eva_folder-add-outline.png" alt="png" class=""/></li>
+                     </ul>
+                     <button class="newcomer-programs-button-visit">Visit</button>
+                   </div>
                   </div>
                 </li>
               </ul>
@@ -392,7 +421,8 @@
         </div>
       </section>
       <section>
-        <div class="ronald-container">
+        <div class="container">
+        <div class="ronald-flexbox">
           <img
             class="chevron-grey"
             src="./src/images/chevron-left.png"
@@ -430,9 +460,11 @@
           <div class="animation-row-orange"></div>
           <div class="animation-row-black"></div>
         </div>
+      </div>
+    </div>
       </section>
       <section>
-        <div class="contributor-container">
+        <div class="container">
           <h6 class="contributor-title">Become a contributor?</h6>
           <p class="contributor-text">
             Join us and get tips & tricks to become a great Designer and
@@ -451,7 +483,7 @@
       <div class="before-footer-line"></div>
     </main>
     <footer class="footer">
-      <div class="footer-container">
+      <div class="container">
         <div class="footer-flexbox">
           <div class="footer-flex-element">
             <div class="footer-logo">
