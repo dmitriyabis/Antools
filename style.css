@@ -167,9 +167,8 @@ body {
 }
 .tools-link-h2 {
   width: 455px;
-  margin: 0;
   margin-top: 200px;
-  margin-left: 385px;
+  margin: 0 auto;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-family: Poppins;
@@ -177,11 +176,11 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
+  padding-top: 200px;
 }
 .tools-text {
-  margin: 0;
   width: 427px;
-  margin-left: 399px;
+  margin: 0 auto;
   margin-top: 25px;
   color: rgba(255, 255, 255, 0.55);
   text-align: center;
@@ -190,15 +189,14 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  margin-bottom: 110px;
+  padding-bottom: 110px;
 }
 .tools-hero-row {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  gap: 22px;
+  column-gap: 23px;
+  row-gap: 100px;
 }
 .program-tools {
   width: 392px;
@@ -207,7 +205,6 @@ body {
   width: 392px;
   height: 294px;
   flex-shrink: 0;
-  margin-bottom: 100px;
 }
 .program-tools-title {
   color: rgba(255, 255, 255, 0.78);
@@ -216,7 +213,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 0;
   padding-left: 30px;
 }
 .program-tools-pay {
@@ -237,7 +233,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  margin: 0;
   margin-top: 30px;
   margin-left: 33px;
 }
@@ -279,7 +274,6 @@ body {
 .program-tools:hover {
   width: 392px;
   height: 294px;
-  flex-shrink: 0;
   border-radius: 15px;
   border: 2px solid rgba(255, 255, 255, 0.8);
   background: rgba(40, 48, 54, 0.6);
@@ -288,7 +282,6 @@ body {
 .program-tools:hover .hero-button-visit {
   width: 106px;
   height: 42px;
-  flex-shrink: 0;
   border-radius: 8px;
   background: #ff6e30;
   color: #fff;
@@ -301,7 +294,6 @@ body {
 .hero-button-load {
   width: 184px;
   height: 64px;
-  flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: #1e252b;
@@ -312,13 +304,10 @@ body {
   font-weight: 500;
   line-height: normal;
   margin-left: 520px;
+  margin-top: 100px;
 }
 .brand-container {
-  flex-shrink: 0;
-  border-radius: 25px;
-  border: 2px solid rgba(255, 255, 255, 0.05);
-  background: rgba(44, 53, 61, 0.2);
-  backdrop-filter: blur(25px);
+  background-image: url("./src/images/rectangle.png");
   margin-top: 200px;
   margin-bottom: 200px;
 }
@@ -332,7 +321,6 @@ body {
   padding-left: 428px;
   padding-top: 55px;
   padding-bottom: 55px;
-  margin: 0;
 }
 .brand-list {
   display: flex;
@@ -345,7 +333,6 @@ body {
   display: flex;
 }
 .newcomer-tools-title {
-  margin: 0;
   color: rgba(255, 255, 255, 0.9);
   font-family: Poppins;
   font-size: 48px;
@@ -361,13 +348,11 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  margin: 0;
   padding-top: 30px;
 }
 .newcomer-button-explore {
   width: 198px;
   height: 58px;
-  flex-shrink: 0;
   border-radius: 8px;
   background: #ff6e30;
   color: #fff;
@@ -379,21 +364,16 @@ body {
   margin-top: 60px;
   border: 0;
 }
-.newcomer-programs-container {
-  padding-left: 195px;
-}
 .newcomer-programs-list {
   display: flex;
   flex-wrap: wrap;
-  list-style-type: none;
-  margin: 0;
-  grid-gap: 25px;
-  margin-bottom: 50px;
+  column-gap: 24px;
+  row-gap: 50px;
+  margin-left: 197px;
 }
 .newcomer-programs-items {
   width: 288px;
   height: 284px;
-  flex-shrink: 0;
   border-radius: 15px;
   background: #1e252b;
 }
@@ -408,7 +388,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 0;
   padding-left: 34px;
 }
 .newcomer-programs-pay {
@@ -418,7 +397,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 0;
   padding-left: 34px;
 }
 .newcomer-programs-text {
@@ -430,7 +408,6 @@ body {
   font-weight: 400;
   line-height: 30px;
   padding-left: 22px;
-  margin: 0;
   padding-top: 30px;
   padding-bottom: 37px;
 }
@@ -450,7 +427,6 @@ body {
 .newcomer-programs-button-visit {
   width: 106px;
   height: 42px;
-  flex-shrink: 0;
   border-radius: 8px;
   border: none;
   background: #1e252b;
@@ -465,7 +441,6 @@ body {
 .newcomer-programs-items:hover {
   width: 288px;
   height: 284px;
-  flex-shrink: 0;
   border-radius: 15px;
   border: 2px solid rgba(255, 255, 255, 0.8);
   background: rgba(40, 48, 54, 0.6);
@@ -575,7 +550,6 @@ body {
 }
 .contributor-title {
   width: 553px;
-  margin: 0;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-family: Poppins;
@@ -583,8 +557,8 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
-  margin-top: 250px;
-  margin-left: 336px;
+  padding-top: 250px;
+  margin: 0 auto;
 }
 .contributor-text {
   width: 427px;
@@ -595,12 +569,12 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  margin-top: 25px;
-  margin-left: 399px;
+  margin: 0 auto;
+  padding-top: 25px;
 }
 .contributor-form {
+  margin: 0 auto;
   margin-top: 100px;
-  margin-left: 338px;
   width: 549px;
   height: 64px;
   border-radius: 15px;
@@ -659,7 +633,6 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin: 0;
 }
 .footer-logo {
   display: flex;
@@ -672,7 +645,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin: 0;
   padding-top: 25px;
 }
 .copyright-text {
@@ -689,7 +661,6 @@ body {
   margin-left: 156px;
 }
 .contact-title {
-  margin: 0;
   color: rgba(255, 255, 255, 0.9);
   font-family: Poppins;
   font-size: 20px;
@@ -698,13 +669,10 @@ body {
   line-height: normal;
 }
 .contact-list {
-  margin: 0;
-  padding-left: 0;
   list-style-type: none;
   padding-top: 20px;
 }
 .contact-list-item {
-  text-decoration: none;
   color: rgba(255, 255, 255, 0.55);
   font-family: Poppins;
   font-size: 16px;
@@ -720,7 +688,6 @@ body {
   margin-left: 115px;
 }
 .categories-title {
-  margin: 0;
   color: rgba(255, 255, 255, 0.9);
   font-family: Poppins;
   font-size: 20px;
@@ -729,9 +696,6 @@ body {
   line-height: normal;
 }
 .categories-list {
-  margin: 0;
-  padding-left: 0;
-  list-style-type: none;
   padding-top: 20px;
 }
 .categories-list li {
@@ -744,14 +708,12 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  text-decoration: none;
 }
 .footer-company {
   margin-top: 70px;
   margin-left: 118px;
 }
 .company-title {
-  margin: 0;
   color: rgba(255, 255, 255, 0.9);
   font-family: Poppins;
   font-size: 20px;
@@ -760,9 +722,6 @@ body {
   line-height: normal;
 }
 .company-list {
-  margin: 0;
-  padding-left: 0;
-  list-style-type: none;
   padding-top: 20px;
 }
 .company-list-item {
@@ -772,7 +731,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  text-decoration: none;
 }
 .company-list li {
   padding-bottom: 10px;
