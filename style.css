@@ -1,5 +1,6 @@
 body {
   background: #1e252b;
+  font-family: Poppins;
   overflow-x: hidden;
 }
 .container {
@@ -23,7 +24,6 @@ body {
 }
 .header-logo-link-text {
   color: rgba(255, 255, 255, 0.9);
-  font-family: Poppins;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -38,7 +38,6 @@ body {
 }
 .small-text {
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -62,7 +61,6 @@ body {
 }
 .header-button-login {
   color: rgba(255, 255, 255, 0.78);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -78,7 +76,6 @@ body {
   border-radius: 8px;
   background: #ff6e30;
   color: #fdf5ff;
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -94,7 +91,6 @@ body {
 .awesome-tools-title {
   width: 600px;
   color: rgba(255, 255, 255, 0.9);
-  font-family: Poppins;
   font-size: 50px;
   font-style: normal;
   font-weight: 500;
@@ -108,26 +104,32 @@ body {
 .awesome-tools-text {
   width: 487px;
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  padding-top: 30px;
-  padding-bottom: 60px;
-  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 .form-awesome-tools {
+  display: flex;
   width: 497.659px;
   height: 64px;
-  flex-shrink: 0;
   border-radius: 15px;
   border: 1.5px solid rgba(255, 255, 255, 0.1);
-
   background: #283036;
 }
+.form-awesome-tools::before {
+  width: 24px;
+  height: 24px;
+  content: "";
+  background-image: url("./src/images/search.png");
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 13px;
+}
 .form-input-tools {
-  width: 350px;
+  width: 300px;
   height: 64px;
   border-radius: 15px;
   border: none;
@@ -136,12 +138,11 @@ body {
 }
 .form-input-tools::placeholder {
   color: rgba(255, 255, 255, 0.38);
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-indent: 55px;
+  padding-left: 13px;
 }
 .form-button-search {
   width: 130.435px;
@@ -149,21 +150,24 @@ body {
   border-radius: 8px;
   background: #ff6e30;
   color: #fff;
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   border: 0;
+  margin-top: 8px;
+  margin-left: 18px;
 }
-.social-network-row {
+.social-row {
   display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding-top: 122px;
-  gap: 30px;
-  padding-left: 12px;
+  margin-top: 122px;
+  column-gap: 30px;
+  margin-left: 12px;
   margin-bottom: 12px;
+}
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .tools-link-h2 {
   width: 455px;
@@ -171,12 +175,10 @@ body {
   margin: 0 auto;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  font-family: Poppins;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
-  padding-top: 200px;
 }
 .tools-text {
   width: 427px;
@@ -184,7 +186,6 @@ body {
   margin-top: 25px;
   color: rgba(255, 255, 255, 0.55);
   text-align: center;
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -193,7 +194,6 @@ body {
 }
 .tools-hero-row {
   display: flex;
-  list-style-type: none;
   flex-wrap: wrap;
   column-gap: 23px;
   row-gap: 100px;
@@ -201,56 +201,45 @@ body {
 .program-tools {
   width: 392px;
   height: 294px;
-  flex-shrink: 0;
-  width: 392px;
-  height: 294px;
-  flex-shrink: 0;
+  padding-left: 30px;
 }
 .program-tools-title {
   color: rgba(255, 255, 255, 0.78);
-  font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding-left: 30px;
+  margin-left: 30px;
 }
 .program-tools-pay {
   color: rgba(255, 165, 55, 0.55);
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 0;
-  padding-left: 30px;
+  margin-left: 30px;
 }
 .program-tools-text {
   width: 326px;
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
   margin-top: 30px;
-  margin-left: 33px;
 }
 .title-pay-container {
   display: flex;
-  padding-left: 30;
-  padding-top: 33px;
+  margin-top: 33px;
 }
 .hero-button-visit {
   width: 106px;
   height: 42px;
-  flex-shrink: 0;
   border-radius: none;
   background: none;
   border: none;
   background: #1e252b;
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -259,17 +248,14 @@ body {
 }
 .tools-flexbox-img-button {
   display: flex;
-  padding-top: 37px;
-  padding-left: 40px;
+  margin-top: 37px;
+  margin-left: 10px;
 }
 .img-row {
   display: flex;
 }
 .picture-like {
-  padding-right: 25px;
-}
-.grommet-icons {
-  padding-left: 33px;
+  margin-right: 25px;
 }
 .program-tools:hover {
   width: 392px;
@@ -285,7 +271,6 @@ body {
   border-radius: 8px;
   background: #ff6e30;
   color: #fff;
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -298,35 +283,36 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: #1e252b;
   color: #ff6e30;
-  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-left: 520px;
+  margin: 0 auto;
   margin-top: 100px;
+  display: block;
+  text-align: center;
 }
 .brand-container {
   background-image: url("./src/images/rectangle.png");
-  margin-top: 200px;
-  margin-bottom: 200px;
+}
+.section-brend {
+  padding-bottom: 200px;
 }
 .brand-title {
   color: rgba(255, 255, 255, 0.8);
-  font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding-left: 428px;
+  margin: 0 auto;
+  text-align: center;
   padding-top: 55px;
-  padding-bottom: 55px;
 }
 .brand-list {
   display: flex;
-  list-style-type: none;
-  padding-left: 82px;
-  grid-gap: 107px;
+  margin-left: 82px;
+  column-gap: 107px;
+  margin-top: 55px;
   padding-bottom: 60px;
 }
 .newcomer-flexbox {
@@ -334,7 +320,6 @@ body {
 }
 .newcomer-tools-title {
   color: rgba(255, 255, 255, 0.9);
-  font-family: Poppins;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
@@ -343,12 +328,11 @@ body {
 .newcomer-text {
   width: 427px;
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 .newcomer-button-explore {
   width: 198px;
@@ -356,7 +340,6 @@ body {
   border-radius: 8px;
   background: #ff6e30;
   color: #fff;
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -376,43 +359,37 @@ body {
   height: 284px;
   border-radius: 15px;
   background: #1e252b;
+  padding-left: 22px;
+  padding-top: 28px;
 }
 .newcomer-title-pay {
   display: flex;
-  padding-top: 28px;
 }
 .newcomer-programs-title {
   color: rgba(255, 255, 255, 0.78);
-  font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding-left: 34px;
+  margin-left: 34px;
 }
 .newcomer-programs-pay {
   color: rgba(255, 165, 55, 0.55);
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 34px;
+  margin-left: 34px;
 }
 .newcomer-programs-text {
   width: 245px;
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  padding-left: 22px;
-  padding-top: 30px;
-  padding-bottom: 37px;
-}
-.newcomer-title-pay-png {
-  padding-left: 22px;
+  margin-top: 30px;
+  margin-bottom: 37px;
 }
 .newcomer-flexbox-img-button {
   display: flex;
@@ -421,8 +398,8 @@ body {
   display: flex;
 }
 .newcomer-programs-like {
-  padding-left: 29px;
-  padding-right: 25px;
+  margin-left: 3px;
+  margin-right: 25px;
 }
 .newcomer-programs-button-visit {
   width: 106px;
@@ -431,7 +408,6 @@ body {
   border: none;
   background: #1e252b;
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -452,15 +428,17 @@ body {
   border-radius: 8px;
   background: #ff6e30;
   color: #fff;
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
+.section-ronald {
+  padding-top: 200px;
+  padding-bottom: 250px;
+}
 .ronald-flexbox {
   display: flex;
-  margin-top: 200px;
 }
 .chevron-grey {
   height: 48px;
@@ -491,25 +469,22 @@ body {
   margin-left: 145px;
 }
 .ronald-richards-name {
-  margin: 0;
   color: rgba(255, 253, 253, 0.78);
-  font-family: Poppins;
   font-size: 26px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.39px;
-  padding-top: 10px;
-  padding-left: 23px;
+  margin-top: 10px;
+  margin-left: 23px;
 }
 .ronald-richards-text {
   color: rgba(255, 253, 253, 0.55);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 23px;
+  margin-left: 23px;
 }
 .ronald-description {
   color: rgba(255, 255, 255, 0.78);
@@ -548,29 +523,29 @@ body {
   margin-top: 75px;
   margin-left: 50px;
 }
+.section-contributor {
+  padding-bottom: 240px;
+}
 .contributor-title {
   width: 553px;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  font-family: Poppins;
   font-size: 48px;
   font-style: normal;
   font-weight: 500;
   line-height: 130%;
-  padding-top: 250px;
   margin: 0 auto;
 }
 .contributor-text {
   width: 427px;
   color: rgba(255, 255, 255, 0.55);
   text-align: center;
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
   margin: 0 auto;
-  padding-top: 25px;
+  margin-top: 25px;
 }
 .contributor-form {
   margin: 0 auto;
@@ -591,7 +566,6 @@ body {
 }
 .contributor-form-input::placeholder {
   color: rgba(255, 255, 255, 0.38);
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -604,7 +578,6 @@ body {
   border-radius: 8px;
   background: #ff6e30;
   color: #fff;
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -615,20 +588,16 @@ body {
   width: 100vw;
   height: 0.5px;
   background: rgba(255, 255, 255, 0.15);
-  margin-top: 240px;
 }
 .footer {
-  height: 351px;
+  padding-top: 70px;
+  padding-bottom: 98px;
 }
 .footer-flexbox {
   display: flex;
 }
-.footer-flex-element {
-  margin-top: 70px;
-}
 .foter-text-logo {
   color: rgba(255, 255, 255, 0.9);
-  font-family: Poppins;
   font-size: 22px;
   font-style: normal;
   font-weight: 600;
@@ -640,29 +609,30 @@ body {
 }
 .footer-copyright {
   color: rgba(255, 255, 255, 0.9);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  padding-top: 25px;
+  margin-top: 25px;
+  margin-bottom: 21px;
 }
 .copyright-text {
   width: 260px;
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
 }
+.footer-info {
+  display: flex;
+  column-gap: 116px;
+}
 .footer-contact {
-  margin-top: 70px;
   margin-left: 156px;
 }
 .contact-title {
   color: rgba(255, 255, 255, 0.9);
-  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -670,68 +640,55 @@ body {
 }
 .contact-list {
   list-style-type: none;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .contact-list-item {
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .contact-list li {
-  padding-bottom: 10px;
-}
-.footer-categories {
-  margin-top: 70px;
-  margin-left: 115px;
+  margin-bottom: 10px;
 }
 .categories-title {
   color: rgba(255, 255, 255, 0.9);
-  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .categories-list {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .categories-list li {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .categories-list-item {
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-.footer-company {
-  margin-top: 70px;
-  margin-left: 118px;
-}
 .company-title {
   color: rgba(255, 255, 255, 0.9);
-  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .company-list {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .company-list-item {
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .company-list li {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
