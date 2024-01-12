@@ -135,6 +135,7 @@ body {
   border: none;
   background: #283036;
   outline: none;
+  text-indent: 13px;
 }
 .form-input-tools::placeholder {
   color: rgba(255, 255, 255, 0.38);
@@ -142,7 +143,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 13px;
 }
 .form-button-search {
   width: 130.435px;
@@ -563,6 +563,7 @@ body {
   border: 0;
   background: #283036;
   outline: none;
+  text-indent: 25px;
 }
 .contributor-form-input::placeholder {
   color: rgba(255, 255, 255, 0.38);
@@ -570,7 +571,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-indent: 25px;
 }
 .contributor-email-button-join {
   width: 130px;
